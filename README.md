@@ -14,7 +14,7 @@ It is the C# library that helps to keep the errors, warnings and notifications e
 ### How to use
 
 #### Write to log file
-```
+```csharp
   .
   .
   .
@@ -62,7 +62,7 @@ In the example above, a new log file is created for each day based on the local 
 #### Delete Expired Files
 A timeout period can be set for files stored on the local disk.
 The following example deletes log files older than 7 days from local disk.
-```
+```csharp
   // Initial settings
   Logger.Current.LifetimeInDays = 7;
   Logger.Current.DeleteExpiredFiles = true;
