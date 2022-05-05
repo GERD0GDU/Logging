@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Gokhan Erdogdu</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+		<icon>images/icon.png</icon>
+    <projectUrl>https://github.com/GERD0GDU/Logging</projectUrl>
+    <description>It is the C# library that helps to keep the errors, warnings and notifications experienced during the runtime of your applications in the log file.</description>
+    <!-- <releaseNotes>Summary of changes made in this release of the package.</releaseNotes> -->
+    <copyright>Copyright © 2022 ioCode. All right reserved.</copyright>
+    <tags>Logging Logger Log Notification Warning Error Debug</tags>
+		<dependencies>
+			<group targetFramework=".NETFramework4.5" />
+		</dependencies>
+  </metadata>
+	<files>
+		<file src=".\images\icon.png" target="images\" />
+	</files>
+</package>
